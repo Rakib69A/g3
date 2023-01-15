@@ -1,0 +1,405 @@
+/* Google fonts : work sans  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Utility classes  */
+.title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.para {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.list-item{
+    height: 20px;
+    width:20px;
+    padding: 20px;
+    /* border: 2px solid greenyellow; */
+    display: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 220px;
+    margin-right: 240px;
+}
+
+.header-title {
+    margin-top: 50px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 63px;
+}
+
+.nav ul li {
+    list-style: none;
+    margin-left: 80px;
+}
+
+.nav ul li a {
+    color: #424242;
+    text-decoration: none;
+}
+.nav ul a:hover{
+    background-color: greenyellow;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+/*Header's Group section styles */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.banner-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.banner-description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-img img {
+    width: 1050px;
+    /* you can use % */
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+
+/* Feature Section Styles */
+.features {
+    display: flex;
+    margin: 130px 280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    grid-column-gap: 5px;
+}
+
+.feature-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-feature {
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.about-feature p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.about-feature .quick-list {
+    color: #727272;
+}
+
+.about-feature .of-our {
+    color: #131313;
+}
+
+.about-feature .Fea-ture {
+    color: #FF900E;
+}
+
+/* Attractive Feature section */
+.attractive-features {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 200px;
+}
+
+.h3-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.line-h3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.line {
+    width: 5px;
+    height: 90px;
+    background: #FF900E;
+}
+
+.advantage .a-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.All-feature p,
+.advantage .a-para {
+    font-weight: 300;
+    font-size: 12px;
+    color: #727272;
+}
+
+.advantage {
+    width: 586px;
+    height: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 50px;
+    box-shadow: 5px 5px 5px 5px #f4f1f1;
+    border-radius: 10px;
+}
+
+.experience img {
+    width: 400px;
+    height: 700px;
+    display: block;
+}
+
+.experience .btn {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: -60px;
+    margin-left: -30px;
+}
+
+.experience .btn span {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.experience {
+    margin-left: 50px;
+}
+
+/* ---------------------
+    Some facts section
+----------------------- */
+.some-facts {
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.facts {
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+}
+
+.h3-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact h3 {
+    font-size: 25px;
+    font-weight: 600px;
+    color: #424242;
+}
+
+.fact p {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: -10px;
+    color: #727272;
+}
+
+.fact:hover,
+.fact img:hover {
+    border: 2px solid seagreen;
+    transform: rotate(15deg);
+    border-radius: 5px;
+}
+
+.fact .h3-p:hover {
+    border: 2px solid orange;
+    border-radius: 5px;
+    transform: rotate(15deg);
+}
+
+/* ------------------
+   sponsor section
+--------------------- */
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 180px 489px 50px 489px; 
+}
+.sponsor .para{
+    margin-top: -30px;
+}
+.sponsors-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.sponsors-images .image {
+    background: whitesmoke;
+    padding: 10px;
+    /* width: 166.76px;
+    height: 50px; */
+    margin-bottom: 130px;
+}
+.sponsor-images img{
+    mix-blend-mode: luminosity;
+}
+/* -----------------
+    Form Section
+-------------------- */
+form {
+    border-radius: 10px;
+    margin: auto 240px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid whitesmoke;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #FF900E;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.imgcontainer img{
+    margin: 20px;
+    border-radius: 10px;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* __________________________
+        Footer styles
+______________________________*/
+.footer{
+    margin: 130px 240px;
+    background: #FFF4E7;
+    border-radius: 8px;;
+    height: 100px;
+}
+.footer .para{
+    padding: 27px 210px;
+}
+/* ___________________________________________________
+                Media Query
+   ____________________________________________________ */
+

@@ -1,0 +1,124 @@
+@media only screen and (max-width: 576px) {
+    .navbar{
+        flex-direction: column;
+        /* border: 2px solid green; */
+        align-content: flex-end;
+        align-items: center;
+        margin-left: 120px;
+        margin-right: 240px;
+    }
+    .nav ul{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .nav ul li{
+        margin-top: 20px;
+    }
+    .banner{
+        margin-left: 180px;
+        margin-top: 5opx;
+    }
+    .banner-img img {
+        position: relative;
+        width: 100%;
+        /* you can use % */
+        height: auto;
+        margin-top: 30px;
+        margin-left: 1px;
+        margin-bottom: 50px;
+        border-radius: 8px;
+    }
+    .features{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .feature-img{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+        margin-top: -50px;
+        margin-right: 170px;
+    }
+    .feature-img img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .about-feature {
+        margin-left: -80px;
+        margin-right: 120px;
+    }
+    .attractive-features{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .advantage {
+        width: 353px;
+        height: auto;
+        padding-left: 10px;
+        margin-left: -20px;
+    }
+    .experience img {
+        width: 375px;
+        height: 80%;
+        margin-left: -80px;
+        margin-top: 50px;
+        height: 700px;
+        display: block;
+    }
+    .experience .btn {
+        font-size: 35px;
+        margin-top: 150px;
+    }
+    .some-facts{
+        margin-top: 300px;
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    .facts {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .facts .fact{
+        margin: 30px;
+        width: 80%;
+    }
+    .sponsor {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 200px;
+    }
+    .sponsors-images{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sponsors-images .image {
+        margin-bottom: 50px;
+    }
+    form{
+        margin-left: 35px;
+        margin-right: 10px;
+    }
+    span.psw {
+        display: block;
+        float: none;
+     }
+     .cancelbtn {
+        width: 100%;
+     }
+    form,.imgcontainer img{
+        width: 80%;
+    }
+    .footer{
+        margin: 50px 20px;
+    }
+    .footer .para{
+        padding: 15px 20px;
+    }
+}
